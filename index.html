@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feature Widget</title>
 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f8f9fb;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Smaller box width */
+        gap: 15px;
+    }
+
+    .feature-box {
+        background: #ffffff;
+        border-radius: 12px;
+        padding: 10px; /* Smaller inner space */
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        text-align: left;
+        border: 1px solid #f1f1f1;
+        transition: 0.3s ease;
+    }
+
+    .feature-box:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    }
+
+    .icon {
+        width: 40px;     /* Smaller icon */
+        height: 40px;
+        background: #eef4ff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px; /* Smaller icon text */
+        color: #3d7cff;
+        margin-bottom: 8px;
+    }
+
+    .feature-box h3 {
+        font-size: 16px; /* Smaller heading */
+        font-weight: 700;
+        margin: 0;
+        color: #000;
+    }
+
+    .feature-box p {
+        font-size: 13px; /* Smaller subtext */
+        margin-top: 4px;
+        color: #555;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="feature-grid">
+
+    <div class="feature-box">
+        <div class="icon">🎬</div>
+        <h3>300+</h3>
+        <p>Live Classes</p>
+    </div>
+
+    <div class="feature-box">
+        <div the="icon">📝</div>
+        <h3>450+</h3>
+        <p>Study Notes</p>
+    </div>
+
+    <div class="feature-box">
+        <div class="icon">📺</div>
+        <h3>8000+</h3>
+        <p>Mock Tests</p>
+    </div>
+
+    <div class="feature-box">
+        <div class="icon">📄</div>
+        <h3>250+</h3>
+        <p>Previous Year Papers</p>
+    </div>
+
+    <div class="feature-box">
+        <div class="icon">📘</div>
+        <h3>AIM Test</h3>
+        <p>11 Lakh+ Attempt</p>
+    </div>
+
+    <div class="feature-box">
+        <div class="icon">🔄</div>
+        <h3>SSC GD 2024</h3>
+        <p>19212 selections</p>
+    </div>
+
+    <div class="feature-box">
+        <div class="icon">👨‍🏫</div>
+        <h3>Best SSC GD Faculty</h3>
+        <p>Top Rankers</p>
+    </div>
+
+    <div class="feature-box">
+        <div class="icon">❓</div>
+        <h3>Detailed Topic</h3>
+        <p>Analysis</p>
+    </div>
+
+</div>
+
+</body>
+</html>
